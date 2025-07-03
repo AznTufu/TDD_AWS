@@ -15,11 +15,23 @@
       "function": {
         "userHandler": {
           "deploymentBucketName": "amplify-viteproject-dev-4dbdc-deployment",
-          "s3Key": "amplify-builds/userHandler-6f726433724f51736a79-build.zip"
+          "s3Key": "amplify-builds/userHandler-4530374d4a484e74414a-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-viteproject-dev-4dbdc-deployment",
+          "s3Key": "amplify-builds/getUser-6f4d6e6773546e666c48-build.zip"
+        },
+        "postUser": {
+          "deploymentBucketName": "amplify-viteproject-dev-4dbdc-deployment",
+          "s3Key": "amplify-builds/postUser-6d317a536d6b794f2b69-build.zip"
         }
       },
       "storage": {
         "UserTable": {}
+      },
+      "api": {
+        "getUserApi": {},
+        "postUserApi": {}
       }
     }
   }
